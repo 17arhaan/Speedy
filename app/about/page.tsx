@@ -27,7 +27,7 @@ export default function AboutPage() {
                   className="w-32 h-32 rounded-full overflow-hidden border-4 border-neutral-700 mb-6"
                 >
                   <img
-                    src="/placeholder.svg?height=128&width=128"
+                    src="/pfp.png?height=128&width=128"
                     alt="Arhaan Girdhar"
                     className="w-full h-full object-cover bg-neutral-800"
                   />
@@ -164,7 +164,7 @@ export default function AboutPage() {
                     <p className="text-sm text-neutral-400 mb-3">
                       Real-time sentiment analysis of tweets using NLP and Twitter API.
                     </p>
-                    <Link href="#" className="text-xs text-purple-400 hover:underline">
+                    <Link href="https://sentiment-analysis-sepia.vercel.app/" className="text-xs text-purple-400 hover:underline">
                       View Project →
                     </Link>
                   </motion.div>
@@ -177,7 +177,7 @@ export default function AboutPage() {
                   >
                     <h4 className="font-medium text-lg mb-2">Personal Portfolio</h4>
                     <p className="text-sm text-neutral-400 mb-3">Modern portfolio showcasing my projects and skills.</p>
-                    <Link href="#" className="text-xs text-purple-400 hover:underline">
+                    <Link href="https://www.arhaanportfolio.in" className="text-xs text-purple-400 hover:underline">
                       View Project →
                     </Link>
                   </motion.div>
@@ -199,7 +199,7 @@ export default function AboutPage() {
                     <Github className="w-5 h-5" />
                   </a>
                   <a
-                    href="#"
+                    href="https://www.linkedin.com/in/arhaan17/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-neutral-800 hover:bg-neutral-700 transition-colors p-3 rounded-full"
